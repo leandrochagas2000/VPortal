@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "fd893ca6-0dbf-4cd1-adf2-aadc45debc02": {
+      "ProjectGuid": "fd893ca6-0dbf-4cd1-adf2-aadc45debc02",
+      "DisplayName": "VPortal.App",
+      "ColorIndex": 0
+    },
+    "0264e2c6-3052-4183-b3e8-666a08694ef0": {
+      "ProjectGuid": "0264e2c6-3052-4183-b3e8-666a08694ef0",
+      "DisplayName": "VPortal.Business",
+      "ColorIndex": 1
+    },
+    "eef5fa63-0071-4491-9ac8-35ac14d763b3": {
+      "ProjectGuid": "eef5fa63-0071-4491-9ac8-35ac14d763b3",
+      "DisplayName": "VPortal.Data",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

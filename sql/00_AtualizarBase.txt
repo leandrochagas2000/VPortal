@@ -1,0 +1,9 @@
+
+-- Criar Migration
+Add-Migration Initial -Context MeuDbContext
+
+-- gerar script de criação de tabelas
+Script-Migration -Context MeuDbContext
+
+-- Atualizar Banco de Dados
+Update-Database -Context MeuDbContext
