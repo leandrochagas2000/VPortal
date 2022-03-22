@@ -9,5 +9,6 @@ namespace VPortal.App.Data
             : base(options)
         {
         }
+
     }
 }

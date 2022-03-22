@@ -14,7 +14,7 @@ builder.Configuration
     .AddEnvironmentVariables();
 
 // ConfigureServices
-//builder.Services.AddIdentityConfiguration(builder.Configuration);
+builder.Services.AddIdentityConfiguration(builder.Configuration);
 
 builder.Services.AddDbContext<MeuDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

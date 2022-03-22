@@ -32,5 +32,7 @@ namespace VPortal.App.ViewModels
 
         /* EF Relations */
         public ContaViewModel Conta { get; set; }
+
+        public IEnumerable<ContaViewModel> Contas { get; set; }
     }
 }

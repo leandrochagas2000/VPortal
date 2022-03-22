@@ -26,7 +26,7 @@ namespace VPortal.Data.Mappings
             // 1 : N => Conta : Produtos
             builder.HasMany(c => c.Produtos)
                 .WithOne(x => x.Conta)
-                .HasForeignKey(x => x.FornecedorId);
+                .HasForeignKey(x => x.ContaId);
 
             builder.ToTable("Contas");
         }
