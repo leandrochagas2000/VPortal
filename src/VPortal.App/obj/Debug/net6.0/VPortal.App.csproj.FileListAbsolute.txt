@@ -63,7 +63,6 @@ E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\VPortal.App.RazorAssemblyInfo
 E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\VPortal.App.RazorAssemblyInfo.cs
 E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\staticwebassets.build.json
 E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\staticwebassets.development.json
-E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\scopedcss\bundle\VPortal.App.styles.css
 E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\scopedcss\projectbundle\VPortal.App.bundle.scp.css
 E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\VPortal.App.csproj.CopyComplete
@@ -276,3 +275,5 @@ E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysi
 E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+E:\99_dev\VPortal\src\VPortal.App\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\libman.json

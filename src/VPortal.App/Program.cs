@@ -21,12 +21,13 @@ builder.Services.AddDbContext<MeuDbContext>(options =>
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-//builder.Services.AddMvcConfiguration();
+builder.Services.AddMvcConfiguration();
 
 builder.Services.ResolveDependencies();
 
-var app = builder.Build();
 
+
+var app = builder.Build();
 
 // Configure
 if (app.Environment.IsDevelopment())

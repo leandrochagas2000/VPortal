@@ -17,7 +17,7 @@ namespace VPortal.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.1")
+                .HasAnnotation("ProductVersion", "6.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -101,15 +101,15 @@ namespace VPortal.Data.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("bit");
 
+                    b.Property<Guid>("ContaId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DataCadastro")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
-
-                    b.Property<Guid>("FornecedorId")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Imagem")
                         .IsRequired()
@@ -124,7 +124,7 @@ namespace VPortal.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("FornecedorId");
+                    b.HasIndex("ContaId");
 
                     b.ToTable("Produtos", (string)null);
                 });
@@ -143,7 +143,7 @@ namespace VPortal.Data.Migrations
                 {
                     b.HasOne("VPortal.Business.Models.Conta", "Conta")
                         .WithMany("Produtos")
-                        .HasForeignKey("FornecedorId")
+                        .HasForeignKey("ContaId")
                         .IsRequired();
 
                     b.Navigation("Conta");

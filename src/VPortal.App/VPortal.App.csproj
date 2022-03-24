@@ -24,4 +24,8 @@
     <ProjectReference Include="..\VPortal.Data\VPortal.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
+  </ItemGroup>
+
 </Project>

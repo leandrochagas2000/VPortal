@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VPortal.Business.Models
 {
-    public class Entity
+    public abstract class Entity
     {
         protected Entity()
         {
