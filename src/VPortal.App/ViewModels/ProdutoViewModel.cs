@@ -24,7 +24,7 @@ namespace VPortal.App.ViewModels
         [DisplayName("Imagem do Produto")]
         public IFormFile ImagemUpload { get; set; }
 
-        public string Imagem { get; set; }
+        public string? Imagem { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public decimal Valor { get; set; }
@@ -36,8 +36,8 @@ namespace VPortal.App.ViewModels
         public bool Ativo { get; set; }
 
         /* EF Relations */
-        public ContaViewModel Conta { get; set; }
+        public ContaViewModel? Conta { get; set; }
 
-        public IEnumerable<ContaViewModel> Contas { get; set; }
+        public IEnumerable<ContaViewModel>? Contas { get; set; }
     }
 }

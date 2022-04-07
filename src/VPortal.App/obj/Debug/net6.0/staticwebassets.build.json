@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XldB+S1QkFbeAFZYDBtsKlmGs7euVlzI5uBA8J+Olt8=",
+  "Hash": "BDcUw4OaLV4PKf22BlZ6SjvimG6fMk5yviJ2kpk28oY=",
   "Source": "VPortal.App",
   "BasePath": "_content/VPortal.App",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\imagens\\47b92aa9-bb23-466a-bd57-f5126a857904_pao.jpg",
+      "SourceId": "VPortal.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\",
+      "BasePath": "_content/VPortal.App",
+      "RelativePath": "imagens/47b92aa9-bb23-466a-bd57-f5126a857904_pao.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\47b92aa9-bb23-466a-bd57-f5126a857904_pao.jpg"
     },
     {
       "Identity": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\js\\site.js",
