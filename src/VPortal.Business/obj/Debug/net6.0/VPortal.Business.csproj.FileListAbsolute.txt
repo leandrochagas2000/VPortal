@@ -1,6 +1,5 @@
 E:\99_dev\VPortal\src\VPortal.Business\bin\Debug\net6.0\VPortal.Business.deps.json
 E:\99_dev\VPortal\src\VPortal.Business\bin\Debug\net6.0\VPortal.Business.dll
-E:\99_dev\VPortal\src\VPortal.Business\bin\Debug\net6.0\ref\VPortal.Business.dll
 E:\99_dev\VPortal\src\VPortal.Business\bin\Debug\net6.0\VPortal.Business.pdb
 E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\VPortal.Business.GeneratedMSBuildEditorConfig.editorconfig
 E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\VPortal.Business.AssemblyInfoInputs.cache
@@ -9,3 +8,5 @@ E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\VPortal.Business.csproj.
 E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\VPortal.Business.dll
 E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\ref\VPortal.Business.dll
 E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\VPortal.Business.pdb
+E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\VPortal.Business.csproj.AssemblyReference.cache
+E:\99_dev\VPortal\src\VPortal.Business\obj\Debug\net6.0\refint\VPortal.Business.dll
