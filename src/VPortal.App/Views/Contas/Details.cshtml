@@ -1,4 +1,4 @@
-﻿@*@using VPortal.App.Extensions*@
+﻿@using VPortal.App.Extensions
 @model VPortal.App.ViewModels.ContaViewModel
 
 @{
@@ -21,7 +21,7 @@
             @Html.DisplayNameFor(model => model.Documento)
         </dt>
         <dd class="col-sm-10">
-            @*@this.FormataDocumento(Model.TipoFornecedor, Model.Documento)*@
+            @this.FormataDocumento(Model.TipoConta, Model.Documento)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Ativo)
@@ -32,7 +32,7 @@
     </dl>
 </div>
 <div>
-    <a class="btn btn-dark"  supress-by-claim-name="Fornecedor" supress-by-claim-value="Editar" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+    <a class="btn btn-dark"  supress-by-claim-name="Conta" supress-by-claim-value="Editar" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
     <a class="btn btn-info" asp-action="Index">Voltar</a>
 </div>
 

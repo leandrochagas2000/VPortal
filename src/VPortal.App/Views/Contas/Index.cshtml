@@ -1,4 +1,4 @@
-﻿@*@using VPortal.App.Extensions*@
+﻿@using VPortal.App.Extensions
 @model IEnumerable<VPortal.App.ViewModels.ContaViewModel>
 
 @{
@@ -34,7 +34,7 @@
                     @Html.DisplayFor(modelItem => item.Nome)
                 </td>
                 <td>
-                    @*@this.FormataDocumento(item.TipoConta, item.Documento)*@
+                    @this.FormataDocumento(item.TipoConta, item.Documento)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Ativo)

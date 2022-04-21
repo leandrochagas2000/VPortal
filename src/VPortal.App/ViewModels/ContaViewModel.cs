@@ -20,7 +20,7 @@ namespace VPortal.App.ViewModels
         public int TipoConta { get; set; }
 
 
-        public EnderecoViewModel Endereco { get; set; }
+        public EnderecoViewModel? Endereco { get; set; }
 
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }
