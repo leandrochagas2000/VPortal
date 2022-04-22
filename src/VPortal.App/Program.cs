@@ -50,7 +50,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-//app.UseGlobalizationConfig();
+app.UseGlobalizationConfig();
 
 app.MapControllerRoute(
     name: "default",
