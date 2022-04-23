@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "g18/umdvjwF7peT+UGrqXhXZqT2MncZKQ6cO7vTP4Q8ksxqagnAptbSja1MBwgxjn+di0DF/nhjGUYhGHRfMuQ==",
+  "dgSpecHash": "pcuQs+F8e5wUe+0GAAMduJlceOKCHmmDqForjMUIF2RoC3v4LGmLBwTa/VvQUSFa7UpYGTSYiuCWiGI6WmFBjw==",
   "success": true,
   "projectFilePath": "E:\\99_dev\\VPortal\\src\\VPortal.App\\VPortal.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\home\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

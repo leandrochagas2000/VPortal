@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc.DataAnnotations;
 using VPortal.Business.Interfaces;
 using VPortal.Data.Context;
 using VPortal.Data.Repository;
+using VPortal.Business.Notificacoes;
+using VPortal.Business.Services;
 
 namespace VPortal.App.Configurations
 {
@@ -16,6 +18,9 @@ namespace VPortal.App.Configurations
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
             services.AddSingleton<IValidationAttributeAdapterProvider, MoedaValidationAttributeAdapterProvider>();
 
+            services.AddScoped<INotificador, Notificador>();
+            services.AddScoped<IContaService, ContaService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
 
             return services;
 

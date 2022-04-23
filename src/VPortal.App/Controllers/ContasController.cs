@@ -9,15 +9,18 @@ namespace VPortal.App.Controllers
     public class ContasController : BaseController
     {
         private readonly IContaRepository _contaRepository;
-        private readonly IEnderecoRepository _enderecoRepository;
+        private readonly IContaService _contaService;
 
         private readonly IMapper _mapper;
 
-        public ContasController(IContaRepository contaRepository, IMapper mapper, IEnderecoRepository enderecoRepository)
+        public ContasController(IContaRepository contaRepository, 
+                                IMapper mapper, 
+                                IContaService contaService,
+                                INotificador notificador) : base(notificador)
         {
             _contaRepository = contaRepository;
             _mapper = mapper;
-            _enderecoRepository = enderecoRepository;
+            _contaService = contaService;
         }
 
         [Route("lista-de-contas")]
@@ -53,7 +56,10 @@ namespace VPortal.App.Controllers
             if (!ModelState.IsValid) return View(contaViewModel);
 
             var conta = _mapper.Map<Conta>(contaViewModel);
-            await _contaRepository.Adicionar(conta);
+            await _contaService.Adicionar(conta);
+
+            if (!OperacaoValida()) return View(contaViewModel);
+
 
             return RedirectToAction("Index");
         }
@@ -81,7 +87,7 @@ namespace VPortal.App.Controllers
             if (!ModelState.IsValid) return View(contaViewModel);
 
             var conta = _mapper.Map<Conta>(contaViewModel);
-            await _contaRepository.Atualizar(conta);
+            await _contaService.Atualizar(conta);
 
 
             return RedirectToAction("Index");
@@ -109,7 +115,7 @@ namespace VPortal.App.Controllers
 
             if(contaViewModel == null) return NotFound();
 
-            await _contaRepository.Remover(id);
+            await _contaService.Remover(id);
             return RedirectToAction("Index");
         }
 
@@ -149,7 +155,7 @@ namespace VPortal.App.Controllers
 
             if (!ModelState.IsValid) return PartialView("_AtualizarEndereco", contaViewModel);
 
-            await _enderecoRepository.Atualizar(_mapper.Map<Endereco>(contaViewModel.Endereco));
+            await _contaService.AtualizarEndereco(_mapper.Map<Endereco>(contaViewModel.Endereco));
 
             var url = Url.Action("ObterEndereco", "Contas", new { id = contaViewModel.Endereco.ContaId });
             return Json(new { success = true, url });

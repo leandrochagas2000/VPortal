@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "osRzF8HXSOgbiWhWFfqgee8iKxyum9AY7oSCQ5jZvKUdOGnXngKCcLPXRtiSz6CNtIXfawFHqbFB1ivgHyc7Jg==",
+  "dgSpecHash": "PN2qhJebJr1ENz/okcCHHbhUaYHt89lZEtbPuJOkzjzx8SZRIFBErK0gF53jwV16kUutueqOJFoDO57ki/L2dg==",
   "success": true,
   "projectFilePath": "E:\\99_dev\\VPortal\\src\\VPortal.Business\\VPortal.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\home\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
