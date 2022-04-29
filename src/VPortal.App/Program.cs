@@ -3,8 +3,16 @@ using Microsoft.EntityFrameworkCore;
 using VPortal.App.Configurations;
 using VPortal.App.Data;
 using VPortal.Data.Context;
+using VPortal.App.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+////var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");; // conexao banco do Identity
+
+//builder.Services.AddDbContext<VPortalAppContext>(options =>
+//    options.UseSqlServer(connectionString));;
+
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<VPortalAppContext>();;
 
 
 builder.Configuration

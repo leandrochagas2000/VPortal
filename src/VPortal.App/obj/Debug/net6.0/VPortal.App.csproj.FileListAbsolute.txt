@@ -284,3 +284,7 @@ E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\appsettings.Staging.json
 E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\appsettings.Staging.Production.Development.json
 E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\appsettings.Staging.Production.json
 E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\FluentValidation.dll
+E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\99_dev\VPortal\src\VPortal.App\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
