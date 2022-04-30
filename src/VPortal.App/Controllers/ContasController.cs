@@ -1,11 +1,14 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using VPortal.App.Extensions;
 using VPortal.App.ViewModels;
 using VPortal.Business.Interfaces;
 using VPortal.Business.Models;
 
 namespace VPortal.App.Controllers
 {
+    [Authorize]
     public class ContasController : BaseController
     {
         private readonly IContaRepository _contaRepository;
@@ -23,12 +26,14 @@ namespace VPortal.App.Controllers
             _contaService = contaService;
         }
 
+        [AllowAnonymous]
         [Route("lista-de-contas")]
         public async Task<IActionResult> Index()
         {
             return View(_mapper.Map<IEnumerable<ContaViewModel>>(await _contaRepository.ObterTodos()));
         }
 
+        [AllowAnonymous]
         [Route("dados-da-conta/{id:guid}")]
         public async Task<IActionResult> Details(Guid id)
         {
@@ -42,12 +47,14 @@ namespace VPortal.App.Controllers
             return View(contaViewModel);
         }
 
+        [ClaimsAuthorize("Conta","Adicionar")]
         [Route("nova-conta")]
         public IActionResult Create()
         {
             return View();
         }
 
+        [ClaimsAuthorize("Conta", "Adicionar")]
         [Route("nova-conta")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -64,6 +71,7 @@ namespace VPortal.App.Controllers
             return RedirectToAction("Index");
         }
 
+        [ClaimsAuthorize("Conta", "Editar")]
         [Route("editar-conta/{id:guid}")]
         public async Task<IActionResult> Edit(Guid id)
         {
@@ -77,6 +85,7 @@ namespace VPortal.App.Controllers
             return View(contaViewModel);
         }
 
+        [ClaimsAuthorize("Conta", "Editar")]
         [Route("editar-conta/{id:guid}")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -93,6 +102,7 @@ namespace VPortal.App.Controllers
             return RedirectToAction("Index");
         }
 
+        [ClaimsAuthorize("Conta", "Excluir")]
         [Route("excluir-conta/{id:guid}")]
         public async Task<IActionResult> Delete (Guid id)
         {
@@ -106,6 +116,7 @@ namespace VPortal.App.Controllers
             return View(contaViewModel);
         }
 
+        [ClaimsAuthorize("Conta", "Excluir")]
         [Route("excluir-conta/{id:guid}")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -119,6 +130,7 @@ namespace VPortal.App.Controllers
             return RedirectToAction("Index");
         }
 
+        [AllowAnonymous]
         [Route("obter-endereco-conta/{id:guid}")]
         public async Task<IActionResult> ObterEndereco(Guid id)
         {
@@ -132,6 +144,7 @@ namespace VPortal.App.Controllers
             return PartialView("_DetalhesEndereco", conta);
         }
 
+        [ClaimsAuthorize("Conta", "Editar")]
         [Route("atualizar-endereco-conta/{id:guid}")]
         public async Task<IActionResult> AtualizarEndereco(Guid id)
         {
@@ -145,6 +158,7 @@ namespace VPortal.App.Controllers
             return PartialView("_AtualizarEndereco", new ContaViewModel { Endereco = conta.Endereco });
         }
 
+        [ClaimsAuthorize("Conta", "Excluir")]
         [Route("atualizar-endereco-conta/{id:guid}")]
         [HttpPost]
         [ValidateAntiForgeryToken]

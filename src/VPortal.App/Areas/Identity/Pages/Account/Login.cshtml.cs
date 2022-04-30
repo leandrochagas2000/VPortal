@@ -17,7 +17,7 @@ using Microsoft.Extensions.Logging;
 
 namespace VPortal.App.Areas.Identity.Pages.Account
 {
-    public class LoginModel : PageModel
+    public class  LoginModel : PageModel
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
