@@ -10,6 +10,6 @@ E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\VPortal.Data.AssemblyInfo.cs
 E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\VPortal.Data.csproj.CoreCompileInputs.cache
 E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\VPortal.Data.csproj.CopyComplete
 E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\VPortal.Data.dll
-E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\ref\VPortal.Data.dll
-E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\VPortal.Data.pdb
 E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\refint\VPortal.Data.dll
+E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\VPortal.Data.pdb
+E:\99_dev\VPortal\src\VPortal.Data\obj\Debug\net6.0\ref\VPortal.Data.dll

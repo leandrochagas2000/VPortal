@@ -1,4 +1,6 @@
-﻿namespace VPortal.App.Models
+﻿using System;
+
+namespace VPortal.App.Models
 {
     public class ErrorViewModel
     {

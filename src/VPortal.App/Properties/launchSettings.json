@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "VPortal.App": {
+    "VPortal.App - Dev": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
@@ -17,20 +17,20 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "DevIO.App - Stage": {
+    "VPortal.App - Stage": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7017;http://localhost:5017",
+      "applicationUrl": "https://localhost:7269;http://localhost:5269",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Staging"
       }
     },
-    "DevIO.App - Prod": {
+    "VPortal.App - Prod": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7017;http://localhost:5017",
+      "applicationUrl": "https://localhost:7269;http://localhost:5269",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
