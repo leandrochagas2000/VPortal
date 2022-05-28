@@ -5,6 +5,8 @@ using VPortal.App.Extensions;
 using VPortal.App.ViewModels;
 using VPortal.Business.Interfaces;
 using VPortal.Business.Models;
+using VPortal.App.Areas.Identity;
+using System.Security.Claims;
 
 namespace VPortal.App.Controllers
 {
@@ -62,6 +64,7 @@ namespace VPortal.App.Controllers
         {
             if (!ModelState.IsValid) return View(contaViewModel);
 
+            contaViewModel.UserId = User.FindFirst(ClaimTypes.NameIdentifier).Value; // informa id do usuário logado
             var conta = _mapper.Map<Conta>(contaViewModel);
             await _contaService.Adicionar(conta);
 

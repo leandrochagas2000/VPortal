@@ -17,6 +17,9 @@ namespace VPortal.Business.Models.Validations
                 .Length(2, 100)
                 .WithMessage("O campo {PropertyName} precisa ter entre {MinLength} e {MaxLength} caracteres");
 
+            RuleFor(c => c.UserId)
+                .NotEmpty().WithMessage("Usuário precisa estar logado");
+
             When(c => c.TipoConta == TipoConta.PessoaFisica, () =>
             {
                 RuleFor(c => c.Documento.Length).Equal(CpfValidacao.TamanhoCpf)

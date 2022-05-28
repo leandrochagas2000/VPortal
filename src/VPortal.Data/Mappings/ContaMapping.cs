@@ -10,6 +10,9 @@ namespace VPortal.Data.Mappings
         {
             builder.HasKey(x => x.Id);
 
+            builder.Property(x => x.UserId)
+                .HasColumnType("varchar(450)");
+
             builder.Property(x => x.Nome)
                 .IsRequired()
                 .HasColumnType("varchar(200)");

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dR8Ww+jFIxfJapVIXPoykUnz/opNxXyOOH6TRZtTvAQ=",
+  "Hash": "SScKYaoUenojODis7H7SdWWJ5hkc6/ytDsdXSrsz/vA=",
   "Source": "VPortal.App",
   "BasePath": "_content/VPortal.App",
   "Mode": "Default",
@@ -1139,6 +1139,23 @@
       "OriginalItemSpec": "wwwroot\\imagens\\28ac315b-db1d-45ae-8e08-6a6b6211180c_livro_scrum_.jpg"
     },
     {
+      "Identity": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\imagens\\316867aa-1ea2-4c33-8b00-09a74b45cb21_Pedro Teixeira Tinto.png",
+      "SourceId": "VPortal.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\",
+      "BasePath": "_content/VPortal.App",
+      "RelativePath": "imagens/316867aa-1ea2-4c33-8b00-09a74b45cb21_Pedro Teixeira Tinto.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\316867aa-1ea2-4c33-8b00-09a74b45cb21_Pedro Teixeira Tinto.png"
+    },
+    {
       "Identity": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\imagens\\39e24f6e-a181-483a-97c4-1fbf7cb58d4a_foto.jpg",
       "SourceId": "VPortal.App",
       "SourceType": "Discovered",
@@ -1307,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\aaee2492-fe28-403e-b479-876aed75588c_ev02.PNG"
+    },
+    {
+      "Identity": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\imagens\\bcff52b2-e32d-4ca7-a9e6-c9ebffc830bf_Ballade Merlot.png",
+      "SourceId": "VPortal.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\",
+      "BasePath": "_content/VPortal.App",
+      "RelativePath": "imagens/bcff52b2-e32d-4ca7-a9e6-c9ebffc830bf_Ballade Merlot.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\bcff52b2-e32d-4ca7-a9e6-c9ebffc830bf_Ballade Merlot.png"
     },
     {
       "Identity": "E:\\99_dev\\VPortal\\src\\VPortal.App\\wwwroot\\imagens\\c4684e63-fa7a-42ed-ba46-c21f2e492159_laranja.jpg",

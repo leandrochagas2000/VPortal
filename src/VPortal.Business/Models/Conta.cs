@@ -8,6 +8,7 @@ namespace VPortal.Business.Models
 {
     public class Conta : Entity
     {
+        public string UserId { get; set; }
         public string Nome { get; set; }
         public string Documento { get; set; }
         public TipoConta TipoConta { get; set; }
